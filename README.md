@@ -1,0 +1,1 @@
+This repo is sort of a starter-project for TanStack router and React. Keep in mind that TanStack router is still in early development and this is just a beta version, so this starter may (and probably will) break as newer versions of the router come out. I will do my best to maintain it but probably won't for very long.
