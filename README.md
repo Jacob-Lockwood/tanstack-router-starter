@@ -1,6 +1,8 @@
 # TanStack Router starter
 This repo is sort of a starter-project for TanStack router and React. Keep in mind that TanStack router is still in early development and this is just a beta version, so this starter may (and probably will) break as newer versions of the router come out. I will do my best to maintain it but probably won't for very long.
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/jacobofbrooklyn/tanstack-router-starter)
+
 ## Get started:
 ```
 npx degit jacobofbrooklyn/tanstack-router-starter my-new-app
