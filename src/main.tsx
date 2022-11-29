@@ -4,13 +4,20 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { Layout, rootRoute } from "./root";
 
+// here are the routes
 import indexRoute from "./routes/(home)";
 import aboutRoute from "./routes/about";
 import postsRoute from "./routes/posts";
+import postsIndexRoute from "./routes/posts/(postsList)";
+import postsViewRoute from "./routes/posts/$id";
 
-const routes = [indexRoute, aboutRoute, postsRoute] as const;
-
-export const routeConfig = rootRoute.addChildren(Object.values(routes));
+// Add your routes here
+export const routeConfig = rootRoute.addChildren([
+  indexRoute,
+  aboutRoute,
+  // for nested routes:
+  postsRoute.addChildren([postsIndexRoute, postsViewRoute]),
+]);
 
 export const router = createReactRouter({ routeConfig });
 
