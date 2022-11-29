@@ -3,10 +3,9 @@ This repo is sort of a starter-project for TanStack router and React. Keep in mi
 
 ## Get started:
 ```
-$ npx degit jacobofbrooklyn/tanstack-router-starter my-new-app
-$ cd my-new-app
-$ npm install
-$ npm run dev
+npx degit jacobofbrooklyn/tanstack-router-starter my-new-app
+cd my-new-app
+npm install && npm run dev
 ```
 
 ## Usage:
